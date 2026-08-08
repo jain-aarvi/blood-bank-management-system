@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOOD BANK SYSTEM</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <nav>
+        <ul>
+         <li><a href="#home">HOME</a></li> 
+        <li><a href="about.html">ABOUT </a></li>
+        <li><a href="donate.html">DONATE</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+        <li><a href="compatibility.html">COMPATABILITY </a></li>
+        <li><a href="eligibility.html">ELIGIBILITY</a></li>
+        <li><a href="stock.html">STOCK</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="thankyou.html">THANK YOU</a></li>
+      
+        </ul>
+<button id="openBtn">Registration</button>        
+    </nav>
+    <div class="modal" id="registerModal">
+
+    <div class="modal-content">
+
+        <span class="close">&times;</span>
+
+        <h2>Donor Registration</h2>
+
+        <form id="registerForm">
+
+            <input type="text" placeholder="Full Name" required>
+
+            <input type="email" placeholder="Email" required>
+
+            <input type="tel" placeholder="Phone Number" required>
+
+            <select required>
+                <option>Select Blood Group</option>
+                <option>A+</option>
+                <option>A-</option>
+                <option>B+</option>
+                <option>B-</option>
+                <option>AB+</option>
+                <option>AB-</option>
+                <option>O+</option>
+                <option>O-</option>
+            </select>
+
+            <input type="number" placeholder="Age">
+
+            <input type="text" placeholder="City">
+             <input type="password" placeholder="Password">
+
+            <button type="submit">Register</button>
+
+        </form>
+
+    </div>
+
+</div>
+       <section id="home">
+
+<div class="hero-left">
+
+<h1>
+🩸 Blood Bank <br>
+Information System
+</h1>
+
+<h2>
+Donate Blood, Save Lives ❤️
+</h2>
+
+<p>
+Every drop of blood is a gift of life.
+Join our mission to help patients, hospitals and emergency cases by becoming a blood donor today.
+</p>
+
+<div class="hero-buttons">
+
+<button id="openBtn">❤️ Register Now</button>
+
+<a href="about.html" class="learn-btn">
+Learn More
+</a>
+
+</div>
+
+</div>
+
+<div class="hero-right">
+
+<img src="b2.png" alt="Blood Donation">
+
+</div>
+
+</section>
+
+<!-- Statistics -->
+
+<section class="stats">
+
+<div class="stat-box">
+
+<h2>15,000+</h2>
+
+<p>Happy Donors</p>
+
+</div>
+
+<div class="stat-box">
+
+<h2>30,000+</h2>
+
+<p>Blood Units</p>
+
+</div>
+
+<div class="stat-box">
+
+<h2>120+</h2>
+
+<p>Hospitals</p>
+
+</div>
+
+<div class="stat-box">
+
+<h2>10,000+</h2>
+
+<p>Lives Saved</p>
+
+</div>
+
+</section>
+
+<!-- Why Choose -->
+
+<section class="services">
+
+<h1>Why Choose Our Blood Bank?</h1>
+
+<div class="service-container">
+
+<div class="service-card">
+
+<h2>🩸 Safe Donation</h2>
+
+<p>
+All blood collection follows proper medical safety standards.
+</p>
+
+</div>
+
+<div class="service-card">
+
+<h2>❤️ Certified Staff</h2>
+
+<p>
+Experienced doctors and trained staff ensure safe donation.
+</p>
+
+</div>
+
+<div class="service-card">
+
+<h2>🚑 Emergency Support</h2>
+
+<p>
+24×7 blood availability for emergency patients.
+</p>
+
+</div>
+
+<div class="service-card">
+
+<h2>🏥 Trusted Hospitals</h2>
+
+<p>
+Connected with multiple hospitals across the city.
+</p>
+
+</div>
+
+</div>
+<section class="process">
+
+<h1>Blood Donation Process</h1>
+
+<div class="process-container">
+
+<div class="process-card">
+<div class="circle">1</div>
+<h3>Register</h3>
+<p>Complete the donor registration form.</p>
+</div>
+
+<div class="arrow">➜</div>
+
+<div class="process-card">
+<div class="circle">2</div>
+<h3>Health Check</h3>
+<p>Our medical team checks your health.</p>
+</div>
+
+<div class="arrow">➜</div>
+
+<div class="process-card">
+<div class="circle">3</div>
+<h3>Donate Blood</h3>
+<p>The donation takes only 10–15 minutes.</p>
+</div>
+
+<div class="arrow">➜</div>
+
+<div class="process-card">
+<div class="circle">4</div>
+<h3>Save Lives</h3>
+<p>Your donation can save up to 3 lives.</p>
+</div>
+
+</div>
+
+</section>
+
+</section>
+       
+        
+
+
+
+    
+       
+   
+<div id="successPopup" class="success-box">
+
+    <div class="success-content">
+
+        <h1>🎉 Registration Successful!</h1>
+
+        <p>Thank you for registering as a blood donor.</p>
+
+        <p>Your registration has been confirmed successfully.</p>
+
+        <p><b>🩸 Every Drop Counts!</b></p>
+
+        <button id="closeSuccess">OK</button>
+
+    </div>
+
+</div>
+<section id="facts">
+
+<h1>🩸 Blood Facts</h1>
+
+<div class="facts-container">
+
+<div class="fact-card">
+
+<h2>❤️ Save Lives</h2>
+
+<p id="factText">
+Click the button below to discover an amazing blood fact.
+</p>
+
+<button id="factBtn">Show Blood Fact</button>
+
+</div>
+
+<div class="fact-image">
+
+<img src="b2.png" alt="Blood Donation">
+
+</div>
+
+</div>
+
+</section>
+<section id="request">
+
+<h1>🚑 Emergency Blood Request</h1>
+
+<div class="request-box">
+
+<input type="text"
+id="patientName"
+placeholder="Patient Name">
+
+<select id="patientBlood">
+
+<option value="">Select Blood Group</option>
+
+<option>A+</option>
+<option>A-</option>
+<option>B+</option>
+<option>B-</option>
+<option>AB+</option>
+<option>AB-</option>
+<option>O+</option>
+<option>O-</option>
+
+</select>
+
+<input
+type="text"
+id="hospitalName"
+placeholder="Hospital Name">
+
+<button id="requestBtn">
+
+Send Request ❤️
+
+</button>
+
+<h2 id="requestResult"></h2>
+
+<div id="clock"></div>
+
+</div>
+
+</section>
+<footer class="footer">
+
+<div class="footer-container">
+
+<div class="footer-box">
+<h2>🩸 Blood Bank</h2>
+<p>
+Every drop of blood is a gift of life.
+Together we can save thousands of lives.
+</p>
+</div>
+
+<div class="footer-box">
+<h2>Quick Links</h2>
+
+<p><a href="index.html">Home</a></p>
+<p><a href="about.html">About</a></p>
+<p><a href="donate.html">Donate</a></p>
+<p><a href="contact.html">Contact</a></p>
+
+</div>
+
+<div class="footer-box">
+<h2>Emergency</h2>
+
+<p>📞 +91 9876543210</p>
+<p>✉ bloodbank@gmail.com</p>
+<p>🏥 Jaipur, Rajasthan</p>
+
+</div>
+
+</div>
+
+<hr>
+
+<p class="copyright">
+© 2026 Blood Bank Information System | Made with ❤️ by Aarvi Jain
+</p>
+
+</footer>
+<button id="topBtn">⬆</button>
+<div id="loader">
+
+<div class="loader-circle"></div>
+
+<h2>Loading Blood Bank...</h2>
+
+</div>
+<section class="testimonials">
+
+<h1>What People Say ❤️</h1>
+
+<div class="testimonial-container">
+
+<div class="testimonial-card">
+
+<img src="https://i.pravatar.cc/100?img=1">
+
+<h2>Rahul Sharma</h2>
+
+⭐⭐⭐⭐⭐
+
+<p>
+"The blood bank helped save my father's life.
+Amazing service!"
+</p>
+
+</div>
+
+<div class="testimonial-card">
+
+<img src="https://i.pravatar.cc/100?img=2">
+
+<h2>Priya Jain</h2>
+
+⭐⭐⭐⭐⭐
+
+<p>
+"The registration process was very easy.
+Highly recommended."
+</p>
+
+</div>
+
+<div class="testimonial-card">
+
+<img src="https://i.pravatar.cc/100?img=3">
+
+<h2>Amit Verma</h2>
+
+⭐⭐⭐⭐⭐
+
+<p>
+"Doctors and staff were very supportive."
+</p>
+
+</div>
+
+</div>
+
+</section>
+<section class="emergency">
+
+<h1>🚑 Need Blood Urgently?</h1>
+
+<p>
+Our Blood Bank is available 24×7
+for emergency situations.
+</p>
+
+<a href="contact.html">
+
+<button>
+
+Call Now ☎
+
+</button>
+
+</a>
+
+</section>
+<section class="groups">
+
+<h1>Available Blood Groups</h1>
+
+<div class="group-container">
+
+<div>A+</div>
+<div>A-</div>
+<div>B+</div>
+<div>B-</div>
+<div>AB+</div>
+<div>AB-</div>
+<div>O+</div>
+<div>O-</div>
+
+</div>
+
+</section>
+<div class="blood-drop">
+
+🩸
+
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
